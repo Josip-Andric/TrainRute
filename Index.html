@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+</head>
+
+
+
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<div id="current_date"></div>
+  <h1>Train rute to and of work</h1>
+  <p>Using JavaScript and DeutscheBahn API I will try to create a simple website
+    to help me navigate through commuting to work every day.</p>
+
+
+<form action="/action_page.php">
+  <p>Where are you going:</p>
+  <input type="radio"  name="rute" value="toWork">
+  <label for="toWork">To Work</label><br>
+  <input type="radio" name="rute" value="fromWork">
+  <label for="fromWork">From Work</label><br>
+ 
+  <br>
+
+
+  <input type="submit" value="GO!">
+</form>
+
+<script src="script.js"></script>
+
+
 
 </body>
 </html>
