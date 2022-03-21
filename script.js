@@ -9,8 +9,5 @@ month = date.getMonth() + 1;
 day = date.getDate();
 hours = addZero(date.getHours());
 minutes = addZero(date.getMinutes());
-document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year + "<br>" +
+document.getElementById("current_time").innerHTML = day + "/" + month + "/" + year + "<br>" +
 hours + ":" + minutes;
-
-
-document.getElementsById("demo").innerHTML = "Banana";
