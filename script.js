@@ -1,13 +1,7 @@
-function addZero(i) {
-  if (i < 10) {i = "0" + i}
-  return i;
-}
 
-date = new Date();
-year = date.getFullYear();
-month = date.getMonth() + 1;
-day = date.getDate();
-hours = addZero(date.getHours());
-minutes = addZero(date.getMinutes());
-document.getElementById("current_time").innerHTML = day + "/" + month + "/" + year + "<br>" +
-hours + ":" + minutes;
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+document.getElementById("current_time").innerHTML = dateTime;
