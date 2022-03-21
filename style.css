@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    height: -webkit-fill-available;
+    background-image: url(bahn.jpeg);
+    background-size: cover;
+}
+.title{
+  justify-content: center;
+
+}
+.options{
+background: #000000a0;
+padding: 2em;
+border-radius: 20px;
+width: 100%;
+max-width: 500px;
+margin: 1em;
+color: white;
+font-size: 20px;
+}
+.results{
+background: #000000a0;
+padding: 2em;
+border-radius: 20px;
+width: 100%;
+max-width: 500px;
+margin: 1em;
+color: white;
+font-size: 20px;
+}
