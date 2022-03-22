@@ -48,6 +48,9 @@ font-size: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
+.title{
+  margin: 0em;
+}
 .mainTitle {
   font-size: 120px;
   margin-bottom: 0em;
