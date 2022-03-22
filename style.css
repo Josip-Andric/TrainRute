@@ -47,15 +47,15 @@ color: white;
 font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 .mainTitle {
-  font-size: 100px;
+  font-size: 80px;
   margin-bottom: 0em;
 }
 .direction{
-  font-size: 70px;
+  font-size: 50px;
 }
 .results{
-  font-size: 70px;
+  font-size: 50px;
 }
 };
