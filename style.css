@@ -48,9 +48,16 @@ font-size: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
+  body {
+      display: grid;
+      height: -webkit-fill-available;
+      background-image: url(https://source.unsplash.com/1000x600/?train);
+      background-size: cover;
+
+  }
 .title{
   padding: 0.5em;
-  margin-left: 1.3em;
+  margin-left: 1.5em;
 }
 .mainTitle {
   font-size: 120px;
