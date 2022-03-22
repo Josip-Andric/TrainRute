@@ -51,7 +51,7 @@ font-size: 20px;
   body {
       display: grid;
       height: -webkit-fill-available;
-      background-image: url(https://source.unsplash.com/800x1000/?train);
+      background-image: url(https://source.unsplash.com/800x1200/?train);
       background-size: cover;
 
   }
