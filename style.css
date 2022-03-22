@@ -1,41 +1,39 @@
 body {
     display: grid;
     height: -webkit-fill-available;
-    background-image: url(bahn.jpeg);
+    background-image: url(https://source.unsplash.com/1500x900/?train);
     background-size: cover;
-}
-.title{
-  justify-content: center;
 
 }
-.options{
+.title{
+  background: #000000a0;
+  text-align: center;
+  padding: 1em;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 1em;
+  color: white;
+  font-size: 20px;
+
+}
+.direction{
 background: #000000a0;
-padding: 2em;
+padding: 1em;
 border-radius: 20px;
 width: 100%;
-max-width: 500px;
+max-width: 900px;
 margin: 1em;
 color: white;
 font-size: 20px;
 }
 .results{
 background: #000000a0;
-padding: 2em;
+padding: 1em;
 border-radius: 20px;
 width: 100%;
-max-width: 500px;
+max-width: 900px;
 margin: 1em;
 color: white;
 font-size: 20px;
-}
-.current_time{
-  background: #000000a0;
-  padding: 2em;
-  border-radius: 20px;
-  width: 100%;
-  max-width: 500px;
-  margin: 1em;
-  color: white;
-  font-size: 20px;
-
-}
+};

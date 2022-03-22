@@ -3,26 +3,30 @@
   <head>
     <meta charset="utf-8">
      <link rel="stylesheet" href="./style.css">
-     <script src="./script.js"></script>
+
     <title>Train Rute</title>
   </head>
   <body>
-    <div class=""="toolbar">
-      <header>
-        <!-- Empty for toolbar -->
-      </header>
-    </div>
 
-    <div class=""="title">
+
+    <div class="current_time"></div>
+
+    <div class="title">
       <h1>Train Rute</h1>
     </div>
 
-    <div class="options">
+    <div class="direction">
       <p>Where are you going:</p>
-        <input type="radio"  name="rute" value="toWork">
+        <input type="radio"name="rute"value="toWork">
         <label for="toWork">To Work</label><br>
-        <input type="radio" name="rute" value="fromWork">
+        <input type="radio"name="rute"value="fromWork">
         <label for="fromWork">From Work</label><br>
+       <br>
+      <p>Choose a shift:</p>
+        <input type="radio"name="shift"value="dayShift">
+        <label for="dayShift">Day Shift</label><br>
+        <input type="radio"name="shift"value="nightShift">
+        <label for="nightShift">Night Shift</label><br>
        <br>
 
       <input type="submit" value="GO!">
@@ -30,23 +34,26 @@
 
     <div class="results">
       <h3>Results</h3>
-      <pre>From:Augsburg Hbf       To:Munchen Hbf</pre>
+      <p>From:Augsburg Hbf</p>
+      <p>To:Munchen Hbf</p>
+
 
       <dl>
-        <dt>17:45 --> 18:25</dt>
+        <dt>17:45 ----------------> 18:25</dt>
           <dd>- On Time</dd>
-        <dt>17:55 --> 18:35 (+ 10 min)</dt>
+        <dt>17:55 ----------------> 18:35 (+ 10 min)</dt>
           <dd>- Late: Reason </dd>
       </dl>
 
     </div>
 
-    <div class="futter">
-      <p ID = current_time> </p>
-    </div>
 
 
 
 
+
+
+
+    <script src="script.js"></script>
   </body>
 </html>
