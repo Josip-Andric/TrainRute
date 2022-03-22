@@ -82,6 +82,11 @@ font-size: 20px;
 .direction{
   font-size: 50px;
 }
+input[type="radio"] {
+    -ms-transform: scale(3); /* IE 9 */
+    -webkit-transform: scale(3); /* Chrome, Safari, Opera */
+    transform: scale(3);
+}
 .button{
   width: 300px;
   height: 100px;
