@@ -35,6 +35,16 @@ margin: 1em;
 margin-top: 0em;
 color: white;
 font-size: 20px;
+
+}
+.button{
+
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background: #000000a0;
 }
 .results{
 background: #000000a0;
