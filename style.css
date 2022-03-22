@@ -73,7 +73,7 @@ font-size: 20px;
   }
 .title{
   padding: 0.5em;
-  margin-left: 1.5em;
+  margin-left: 0.8em;
 }
 .mainTitle {
   font-size: 120px;
@@ -81,6 +81,7 @@ font-size: 20px;
 }
 .direction{
   font-size: 50px;
+  margin-left: .1em;
 }
 input[type="radio"] {
     -ms-transform: scale(3); /* IE 9 */
@@ -94,5 +95,6 @@ input[type="radio"] {
 }
 .results{
   font-size: 50px;
+  margin-left: .1em;
 }
 };
