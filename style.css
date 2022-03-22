@@ -82,6 +82,7 @@ font-size: 20px;
 .direction{
   font-size: 50px;
   margin-left: .1em;
+  margin-right: .5em;
 }
 input[type="radio"] {
     -ms-transform: scale(3); /* IE 9 */
@@ -96,5 +97,6 @@ input[type="radio"] {
 .results{
   font-size: 50px;
   margin-left: .1em;
+  margin-right: .5em;
 }
 };
